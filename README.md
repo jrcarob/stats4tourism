@@ -1,2 +1,3 @@
-# stats4tourism
-Presentation Stats for Tourism Course
+# Statistics for Tourism 
+
+Course Presentation Stats for Tourism 

@@ -1,8 +1,8 @@
 ---
-title: "![](uco_0.png)<br/>Estadística Aplicada al Turismo"
-subtitle: "*Curso 1º -- Grado en Turismo*"
+title: "![](uco_0.png)<br/>Applied Statistics for Tourism"
+subtitle: "*1st Course -- Bilingual Degree in Tourism*"
 author: ""
-date: "1er Cuatrimestre (Año Académico: 2022-2023)"
+date: "Fall Semester (Year: 2023-2024)"
 output: 
   xaringan::moon_reader:
     css: [default, metropolis,  metropolis-fonts, "style.css", "my-fonts.css"]
@@ -19,45 +19,45 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(fig.align = "center", cache = TRUE)
 ```
 
-# Docente 
+# Teaching 
 
-## **- Profesor:** José Rafael Caro Barrera.
+## **- Lecturer:** José Rafael Caro Barrera.
 
-## **- Despacho:** 1era Planta, Área de Estadística, Facultad de CCTT.
+## **- Office:** 1st Floor, Statistics Area, Faculty of Labour Sciences.
 
-## **- E-mail:** <span style="color:blue">jrcaro@uco.es</span>; <span style="color:green">z52cabaj@uco.es</span> (se suele responder siempre).
+## **- E-mail:** <span style="color:blue">jrcaro@uco.es</span>; <span style="color:green">z52cabaj@uco.es</span> (I reply always).
 
-## **- Tutorías:** <span style="color:red">Jueves (cualquier otro día y hora, previa cita)</span>.
+## **- Tutorías:** <span style="color:red">Thursdays (any other day, schedule an appointment)</span>.
 
-## **- Material de Trabajo Disponible:** Moodle de la asignatura.
+## **- Work Material:** Course Moodle.
 
-- <div style="font-size: 30px">Casos y supuestos prácticos</div>
-- <div style="font-size: 30px">Ejercicios y problemas</div>
-- <div style="font-size: 30px">Referencias bibliográficas/internet</div>
+- <div style="font-size: 30px">Case studies.</div>
+- <div style="font-size: 30px">Exercises and problems.</div>
+- <div style="font-size: 30px">Bibliographical and/or internet references.</div>
 
-## **- Recursos Adicionales:** Fuentes estadísticas oficiales
+## **- Additional Resources:** Official Statistical Sources.
 
 ---
 
-# Outline (I Parte)
+# Outline (Part I)
 
-## **- El Grado de Turismo de la Universidad de Córdoba**
+## **- The Degree of Tourism at the University of Córdoba**
 
-## 1. ¿Por qué estudiar *Turismo*?
+## 1. Why study *Tourism*?
 
-## 2. Salidas profesionales de un *Graduado en Turismo*.
+## 2. Professional opportunities for a *Graduate in Tourism*.
 
-## 3. Perfil y aptitudes de un <span style="color:blue"><ins>**profesional** en turismo</ins></span>.
+## 3. Profile and skills of a <span style="color:blue"><ins>**tourism professional**</ins></span>.
 
 ---
 
 class: inverse, left, middle
 
-# <img src="logo.png" style="width:150px;"/> </br> El Grado de Turismo en la Universidad de Córdoba.
+# <img src="logo.png" style="width:150px;"/> </br> The Degree of Tourism at the University of Córdoba.
 
 ---
 
-# 1. ¿Por qué estudiar *Turismo*?
+# 1. Why study *Tourism*?
 
 .pull-left[
 ```{r, echo=FALSE, out.width="85%"}
@@ -69,15 +69,15 @@ knitr::include_graphics(c("figs/06.jpg"))
 
 <div style="font-size: 29px">
 
-$\bullet$ España es un país que depende del turismo. En 2019, año antes de que empezara la pandemia, el turismo se había convertido en el sector que más riqueza aportaba a la economía española: <span style="color:blue">**176.000 millones de euros anuales (14,6% del PIB)**</span>, generando <span style="color:green">**2.8 millones de empleos**</span>.
+$\bullet$ Spain is a country that depends on tourism. In 2019, the year before the pandemic began, tourism had become the sector that contributed the most wealth to the Spanish economy: <span style="color:blue">**176 billion € annually (14,6% of GDP)**</span>, generating <span style="color:green">**2.8 million jobs**</span>.
 
-$\bullet$ Reconstrucción del sector: operadores turísticos, hoteles, instalaciones de ocio y empresas vinculadas => Demanda creciente de puestos de trabajo.
+$\bullet$ Reconstruction of the sector: tour operators, hotels, leisure facilities and related companies => Growing demand for jobs.
 
 ]
 
 ---
 
-# 2. Salidas profesionales de un ***Graduado en Turismo***
+# 2. Professional opportunities for a ***Graduate in Tourism***
 
 .pull-left[
 ```{r, echo=FALSE, out.width="85%"}
@@ -89,90 +89,89 @@ knitr::include_graphics(c("figs/02.jpg"))
 
 <div style="font-size: 22px">
 
-El caracter **transversal** del sector turístico demanda una formación completa: 
-- **Economía y contabilidad**  para comprender el mundo empresarial y el mercado. 
-- **Derecho** para conocer la legislación que deben cumplir tanto empresas como organismos oficales, así como la fiscalidad sujeta a los diferentes agentes del sector turístico. 
-- **Idiomas** para poder comunicarse en un entorno en el que el conocimiento de los idiomas es clave.
-- **Marketing e investigación de mercados** para saber qué demanda el consumidor, cómo vender una idea o producto, etc...
-- **Informática** para la gestión automatizada de ciertos procesos en el ámbito turístico.
-- **<span style="color:red"><ins>¿Estadística?</ins>...</span>** 
+The **cross-cutting nature** of the tourism sector requires comprehensive training: 
+- **Economics and accounting:** To understand the business world and the market. 
+- **Law:** To know the legislation that must be complied with by both companies and official bodies, as well as the taxation applicable to the different agents in the tourism sector.
+- **Languages:** To communicate in an environment where knowledge of languages is a key question.
+- **Marketing and Markets Research:** To find out what the consumer demands, how to sell an idea or product, etc.
+- **IT:** For the automated management of certain processes in the field of tourism.
+- **<span style="color:red">Statistics? Why do we need statistics?</span>** 
 ]
 
 ---
 
-# 2. Salidas profesionales de un ***Graduado en Turismo***
+# 2. Professional opportunities for a ***Graduate in Tourism***
 
 <div style="font-size: 29px">
 
 .pull-left[
-<span style="color:red"><ins>1) En empresas turísticas y hoteleras:<ins></span>
+<span style="color:red"><ins>1) In touristic and hotels companies:<ins></span>
 
-- Director de hotel u otros alojamientos (casas rurales, apartamentos) turísticos.
-- Director comercial. 
-- Responsable de marketing y ventas.
-- Jefe de recepción.
-- Director Comunicación y RRPP.
-- Responsable de RRHH.
+- Hotel Manager or any other tourist accommodation companies (rural houses, flats,...).
+- Sales/Marketing Manager. 
+- Head of Reception.
+- Communication and PR Manager.
+- Human Resources Manager.
 ]
 
 .pull-right[
-<span style="color:red"><ins>2) Organización de eventos y congresos:<ins></span>
+<span style="color:red"><ins>2) Organisation of events and congresses:<ins></span>
 
-- Organizador de Congresos y Convenciones.
-- Organizador de Eventos de Entretenimiento y Ocio.
-- Organizador de Eventos Deportivos.
-- Gestor de Programas Incentivos para Empresas.
-- Planificador MICE
+- Congresses and Convention Organiser.
+- Entertainment and Leisure Events Organiser.
+- Sports Events Organiser.
+- Incentive Programme Manager for Companies.
+- MICE Planner (Meeting, Incentives, Conferencing and Exhibitions).
 ]
 
 ---
 
-# 2. Salidas profesionales de un ***Graduado en Turismo***
+# 2. Professional opportunities for a ***Graduate in Tourism***
 
 <div style="font-size: 29px">
 
 .pull-left[
-<span style="color:red"><ins>3) Empresas e instituciones públicas vinculadas al Turismo:<ins></span>
+<span style="color:red"><ins>3) Companies and public institutions linked to tourism:<ins></span>
 
-- Ejecutivo de Cuentas en Empresas Turísticas.
-- Experto en Diseño y Creación de Viajes.
-- Agente de Viajes.
-- Jefe de Marketing en Empresas Turísticas.
-- Responsable de Oficina de Turismo.
-- Gestor de Turismo Cultural.
-- Ordenación del Patrimonio.
+- Account Executive in Tourism Companies.
+- Expert in Design and Creation of Trips.
+- Travel Agent.
+- Head of Marketing in Tourism Companies.
+- Tourism Office Manager.
+- Cultural Tourism Manager.
+- Heritage Management.
 ]
 
 .pull-right[
-<span style="color:red"><ins>4) Consultoría, docencia e investigación:<ins></span>
+<span style="color:red"><ins>4) Consultancy, teaching and research:<ins></span>
 
-- Docente y Formador.
-- Consultor Turístico.
-- Conferenciante.
-- Gerente Inmobiliario.
-- Gerente Finanzas.
-- Community Manager del sector.
+- Teacher and Trainer.
+- Tourism consultant.
+- Lecturer.
+- Real Estate Manager.
+- Finance Manager.
+- Community Manager in the sector.
 ]
 
 ---
 
-# 3. Capacidades y aptitudes de un profesional en turismo
+# 3. Profile and skills of a tourism professional
 
 .pull-left[
 
-<span style="color:blue;font-size:25px;">Capacidades del</span> <span style="color:red;font-size:25px;">estudiante</span> <span style="color:blue;font-size:25px;">del Grado de Turismo:<span>
+<span style="color:blue;font-size:25px;">Skills of the </span> <span style="color:red;font-size:25px;">student</span> <span style="color:blue;font-size:25px;">of the Degree in Tourism:<span>
 
-- Comprender los <span style="color:blue">principios e impactos del Turismo</span>: dimensión espacial territorial, social, cultural, política, laboral y económica. 
+- Understanding <span style="color:blue"> of the principles and impacts of Tourism</span>: spatial, territorial, social, cultural, political, labour and economic dimension. 
 
-- Comprender el <span style="color:blue">marco legal que regula las actividades turísticas</span>. 
+- Understanding of the <span style="color:blue">legal framework that regulates tourism activities.</span>. 
 
-- <span style="color:blue">Seleccionar, analizar, gestionar, interpretar y sintetizar</span> información aplicada al sector turístico. 
+- <span style="color:blue">To select, analyse, manage, interpret and synthesise information</span> applied to the tourism sector.
 
-- <span style="color:blue">Identificar y gestionar espacios de destinos turísticos</span>: Management de los distintos tipos de entidades turísticas. 
+- <span style="color:blue">To identify and manage tourist destination spaces:</span> Management of the different types of tourist entities. 
 
-- <span style="color:blue">Definir objetivos, estrategias y políticas comerciales</span> en el ámbito del turismo. 
+- <span style="color:blue">Define objectives, strategies and commercial policies</span> in the field of tourism.
 
-- Gestionar territorios y recursos turísticos de acuerdo con los principios de la <span style="color:blue">sostenibilidad</span>.
+- To Manage tourist territories and resources in accordance with the principles of <span style="color:blue">sustainability</span>.
 ]
 
 .pull-right[
@@ -181,7 +180,7 @@ El caracter **transversal** del sector turístico demanda una formación complet
 
 ---
 
-# 3. Capacidades y aptitudes de un profesional en turismo
+# 3. Profile and skills of a tourism professional
 
 .pull-left[
 
@@ -189,55 +188,55 @@ El caracter **transversal** del sector turístico demanda una formación complet
 
 .pull-right[
 
-<span style="color:blue;font-size:25px;">Perfil de aptitudes de un</span> <span style="color:red;font-size:25px;">profesional</span> <span style="color:blue;font-size:25px;">en turismo:</span>
+<span style="color:blue;font-size:25px;">Skills profile of a tourism</span> <span style="color:red;font-size:25px;">professional</span>
 
-<span style="color:blue">1. Resolución de problemas:</span> Se trata de buscar alternativas y posibles soluciones. En línea con la capacidad analítica y la atención a los detalles. Estas competencias permiten evaluar opciones y elegir la mejor según las necesidades de los clientes.
+<span style="color:blue">1. Problem solving:</span> This involves looking for alternatives and possible solutions. In line with analytical skills and attention to detail. These competencies allow to evaluate options and choose the best one according to the needs of the clients.
 
-<span style="color:blue">2. Manejo de la presión:</span> Para trabajar bien bajo presión, la clave es saber cuándo pedir ayuda. No se debe aceptar más de lo que se pueda manejar y en tal caso, avisar a compañeros o manager cuando se necesite ayuda. Si se está al cargo, hay que aprender a delegar tareas y animar a las personas.
+<span style="color:blue">2. Pressure management:</span> To work well under pressure, the key is to know when to ask for help. Do not take on more than you can handle and if so, let your colleagues or manager know when you need help. If you are in charge, learn to delegate tasks and encourage people.
 
-<span style="color:blue">3. Diplomacia:</span> Convertirse en un buen diplomático será necesario porque las cosas cambian rápidamente en el sector de turismo y ocio. Retrasos en los vuelos, hoteles completos o que el mal tiempo afectas las vacaciones y los viajes. Se debe estar preparado para tratar con clientes insatisfechos, gestionar conflictos y actuar con rapidez para ofrecer una solución.
+<span style="color:blue">3. Diplomacy:</span> Becoming a good diplomat will be necessary because things change quickly in the tourism and leisure sector. Flight delays, fully booked hotels or bad weather affect holidays and travel. You must be prepared to deal with dissatisfied customers, manage conflicts and act quickly to offer a solution.
 ]
 
 ---
 
-# Outline (II Parte)
+# Outline (Part II)
 
-## **- La <span style="color:blue">*Estadística*</span> en el Grado de Turismo:**
+## **- <span style="color:blue">*Statistics*</span> in the Degree of Tourism:**
 
-## 4. ¿Por qué estudiar *Estadística*?
+## 4. Why study *Statistics*?
 
-## 5. Requisitos mínimos y Referencias.
+## 5. Basic Requirements and References.
 
-## 6. Competencias del Alumno y Objetivos.
+## 6. Student Competencies and Objectives.
 
-## 7. Metodología y Evaluación.
+## 7. Methodology and Assessment.
 
-## 8. Contenidos de la Asignatura.
+## 8. Course Contents.
 
-## 9. Consideraciones, Recomendaciones y Consejos.
+## 9. Recommendations and Advice.
 
 ---
 
 class: inverse, left, middle
 
-# <img src="logo.png" style="width:150px;"/> </br> Aspectos Metodológicos de la Asignatura.
+# <img src="logo.png" style="width:150px;"/> </br> Course Methodology.
 
 ---
 
 
-# 4. ¿Por qué estudiar *Estadística*?
+# 4. Why study *Statistics*?
 
 <div style="font-size: 29px">
 
-<span style="color:blue">Objetivo general</span> de la asignatura es <span style="color:blue">introducir al estudiante en el razonamiento estadístico</span>, haciendo especial énfasis en la resolución de problemas de índole económica y empresarial, preferentemente relacionados con la actividad en el sector turístico.
+The <span style="color:blue">general objective of the course is to introduce the student to statistical reasoning</span>, with special emphasis on the resolution of problems of an economic and business nature, preferably related to activity in the tourism sector.
 
-Se hará uso de las principales herramientas de la Estadística Descriptiva aplicadas al <span style="color:green">tratamiento y análisis de los datos procedentes de la actividad turística</span>, haciéndose también referencia a las principales fuentes estadísticas relacionadas con el turismo.
+We will use the main tools of Descriptive Statistics applied to the <span style="color:green">processing and analysis of data from tourism activity</span>, also making reference to the main statistical sources related to tourism.
 
-El conocimiento de los conceptos estadísticos básicos resulta fundamental para facilitar la <span style="color:red">toma de decisiones en el campo de la empresa turística</span>, pues permite analizar e interpretar datos económicos y del sector turístico. Asimismo, las nociones aprendidas por el alumno en la *Introducción a la Estadística*, sirven como apoyo para el aprendizaje de otras materias que se encuentran en el programa del Grado tales como el Marketing o la Economía.
+Knowledge of basic statistical concepts is essential to facilitate <span style="color:red">decision-making in the field of tourism business</span>, as it allows for the analysis and interpretation of economic data and data from the tourism sector. Likewise, the notions learnt by the student in the *Introduction to Statistics* serve as support for the learning of other subjects found in the programme of the Degree such as Marketing or Economics.
 
 ---
 
-# 5. Requisitos mínimos y Referencias
+# 5. Basic Requirements and References.
 
 .pull-left[
 ```{r, echo=FALSE, out.width="75%"}
@@ -249,69 +248,69 @@ knitr::include_graphics(c("figs/07.png"))
 
 <div style="font-size: 25px">
 
-- No son necesarios conocimientos previos de estadística aunque sí es recomendable tener una <span style="color:red">base mínima de conocimientos matemáticos</span> a nivel de bachillerato para entender la parte cuantitativa de la asignatura.
- 
-- Tampoco son necesarios conocimientos elevados de programación, solo <span style="color:blue">informática a nivel usuario</span>.
+- No previous knowledge of statistics is required, although it is advisable to have a <span style="color:red">minimum knowledge of mathematics</span> at high school level to understand the quantitative part of the subject. 
 
-- Material de Trabajo Disponible: **Moodle de la asignatura.**
+- It is also not necessary to have a high level of programming knowledge, only <span style="color:blue">computing at user level</span>.
 
-  - Casos y supuestos prácticos
-  - Ejercicios y problemas
-  - Referencias bibliográficas/internet
+- Work material available: **Course Moodle.**
+
+  - Case studies
+  - Exercises and problems
+  - Bibliographical and/or internet references
 
 ]
 
 ---
-# 6. Competencias del Alumno y Objetivos.
+# 6. Student Competencies and Objectives.
 
 .pull-left[
 
 <div style="font-size: 22.5px">
 
-Cod. | Competencias:
+Cod. | Competencies:
 :---- | :---------
-CB1  | Ser capaz de **analizar y sintetizar** la información.
-CB2  | Ser capaz de **diseñar, planificar y ejecutar** investigaciones prácticas valorando los resultados.
-CB3;4  | **Comunicación oral y escrita y trabajo en equipo.**
-CB4  | Capacidad de **interpretar cualitativa y/o cuantitativamente los datos**.
-CE3  | Capacidad de **análisis multidisciplinar de datos, índices e indicadores turísticos** cualitativos y cuantitativos.
-CE10  | Ser capaz de **aplicar métodos estadísticos** a datos relacionados con problemas del sector turístico.
+CB1  | Being able to **analyse and summarise** information.
+CB2  | Being able to **design, plan and carry out practical research**, assessing the results.
+CB3;4  | **Oral and written communication and teamwork.**
+CB4  | Ability to **interpret qualitative and quantitative data**.
+CE3  | Capacity for multidisciplinary **analysis of data, indices and tourist indicators**.
+CE10  | Being able **to apply statistical methods** to data related to problems in the tourism sector.
 </div >
 ]
 
 .pull-right[
 <div style="font-size: 23px">
 
-| Se pretende conseguir que el alumno sea capaz de:
+| The aim is for the student to be able to:
 |:---------------------------------------------------------------------------------------------------------------|
-| <span style="color:red">I)</span> Conocer y analizar las principales fuentes de información estadística para describir el sector turístico español. |
-| <span style="color:red">II)</span> Comprender la importancia que representa el uso de métodos estadísticos para el sector turístico.           |
-| <span style="color:red">III)</span> Describir y analizar dicha información. |
-| <span style="color:red">IV)</span> Resumir la información mediante su representación a través de tablas y gráficos.|
-| <span style="color:red">V)</span> Tener el suficiente conocimiento de las distintas herramientas para poder aplicar las técnicas estadísticas más adecuadas a los distintos problemas y analizar críticamente los resultados de los análisis estadísticos aplicados. |
+| <span style="color:red">I)</span> Know and analyse the main sources of statistical information to describe the Spanish tourism sector. |
+| <span style="color:red">II)</span> Understand the importance of the use of statistical methods for the tourism sector.|
+| <span style="color:red">III)</span> Describe and analyse that information. |
+| <span style="color:red">IV)</span> Summarise the information by means of its representation through tables and graphs.|
+| <span style="color:red">V)</span> Have sufficient knowledge of the different tools to be able to apply the most appropriate statistical techniques to the different problems and critically analyse the results of the statistical analyses applied. |
 </div >
 ]
 
 ---
-# 7. Metodología y Evaluación.
+# 7. Methodology and Assessment.
 
 .pull-left[
 
-<div style="font-size: 40px"> Clases teóricas:</div >
-<div style="font-size: 30px"> - Conceptos teóricos básicos</div >
-<div style="font-size: 30px"> - Aplicaciones a problemas reales</div >
+<div style="font-size: 40px"> Theoretical lectures:</div >
+<div style="font-size: 30px"> - Basic statistical concepts</div >
+<div style="font-size: 30px"> - Real problems applications</div >
 
-<div style="font-size: 40px"> Clases prácticas:</div >
+<div style="font-size: 40px"> Computer lectures:</div >
 
-<div style="font-size: 30px"> - Aplicaciones de la asignatura con el software estadístico <span style="color:blue"> SPSS y Excel </span> a realizar en el aula de informática.</div >
+<div style="font-size: 30px"> - Applications of the subject with statistical software: <span style="color:blue"> SPSS and/or Excel </span> in the computer lab or classroom.</div >
 
 <div style="font-size: 25px">
 
-Actividad | Porcentaje
+Activity | Weighting 
 :----     | :----
-Examen (teoría y práctica)  | 60%
-Estudio de casos | 25%
-Resolución de problemas | 15%
+Exam (test and problems)  | 60%
+Case Study | 25%
+Problem solving worksheet | 15%
 
 </div >
 
@@ -319,84 +318,83 @@ Resolución de problemas | 15%
 
 .pull-right[
 
-```{r, echo=FALSE, out.width="75%"}
-knitr::include_graphics(c("figs/cal1.png"))
+```{r, echo=FALSE, out.width="95%"}
+knitr::include_graphics(c("figs/cal.png"))
 ```
 
 ]
 
 ---
 
-# 7. Metodología y Evaluación (continuación).
+# 7. Methodology and Assessment (cont.).
 
 <div style="font-size: 30px">
 
-<span style="color:red">**Examen:**</span> será teórico-práctico, todo seguido, siendo la parte práctica con ordenador, bien del centro o propio, por lo que se aconseja que el alumno trabaje y repita los casos prácticos en casa. Será necesario obtener como mínimo una nota igual a <span style="color:green">**4.5**</span> en cada parte para hacer media, así como para que compute el trabajo en grupo y los casos prácticos.
+<span style="color:red">**Examination:**</span> it will be theoretical-practical, all in a row, with the practical part using a computer, either the centre's or the student's own, so it is advisable that the student works and repeats the practical cases at home. Need to get at least a mark of <span style="color:green">**4.5**</span> in each part in order to obtain an average, (problem solving and cases study).
 
-<span style="color:green">**Estudio de Casos:**</span> en grupos de 4-5 alumnos se desarrollará el análisis de un caso con el objeto de realizar una exposición del mismo en base a los conocimientos adquiridos durante el curso. La exposición tendrá lugar el <span style="color:red">último día de clase teórica</span>.
+<span style="color:green">**Cases Study:**</span> in groups of 3-5 students, a case study will be analysed in order to give a presentation based on the knowledge acquired during the course. The presentation will take place <span style="color:red">on the last day of the theory class</span>.
 
-<span style="color:blue">**Resolución de problemas:**</span> al finalizar cada tema se entregarán unos ejercicios prácticos o se fijará un día para la realización de un ejercicio tipo test, con objeto de repasar el mismo, estos ejercicios son de entrega obligatoria.
+<span style="color:blue">**Problem solving:**</span> at the end of each topic, practical exercises will be handed in or a day will be set for the completion of a test-type exercise, in order to review the same, these exercises are compulsory.
 
-
-**Nota final** =  (<span style="color:red">0.6 x Examen</span> + <span style="color:green">0.25 x Estudio de Casos</span> + <span style="color:blue">0.15 x Resolución de problemas</span>)
+**Final grade** =  (<span style="color:red">0.6 x Exam</span> + <span style="color:green">0.25 x Cases Study</span> + <span style="color:blue">0.15 x Problem solving</span>)
 
 </div >
 
 
 ---
-# 8. Contenidos de la Asignatura.
+# 8. Summary of Course Contents.
 
 <div style="font-size: 32px">
-<span style="color:blue">**BLOQUE I: Estadística Descriptiva Univariante:**</span>
-Análisis Exploratorio de Datos. Escalas de medida: variables numéricas y no numéricas. Distribuciones de frecuencias unidimensionales y sus representaciones gráficas. Medidas descriptivas de variables numéricas.
+<span style="color:blue">**BLOCK I: Univariate Descriptive Statistics:**</span>
+Exploratory Data Analysis. Measurement scales: numerical and non-numerical variables. One-dimensional frequency distributions and their graphical representations. Descriptive measures of numerical variables.
 
-<span style="color:blue">**BLOQUE II: Estadística Descriptiva Bivariante:**</span>
-Distribuciones de frecuencias bidimensionales. Correlación y Regresión. El modelo lineal uniecuacional. Tablas de Contingencia.
+<span style="color:blue">**BLOCK II:  Bivariate Descriptive Statistics:**</span>
+Two-dimensional frequency distributions. Correlation and Regression. The Linear Unequational Model. Contingency tables.
 
-<span style="color:blue">**BLOQUE III: Números Índice.**</span>
-Concepto y aplicaciones. Índices simples. Índices complejos. Enlace de series de índices. Deflación de series económicas.
+<span style="color:blue">**BLOCK III: Index numbers:**</span>
+Concept and applications. Simple indexes. Complex indexes. Linking index series. Deflation of economic series.
 
-<span style="color:blue">**BLOQUE IV: Introducción a las Series Temporales.**</span>
+<span style="color:blue">**BLOCK IV: Introduction to time series for forecasting.**</span>
 
 </div >
 
 ---
 
-# 9. Consideraciones, Recomendaciones y Consejos.
+# 9. Recommendations and Advice.
 
-- <div style="font-size: 35px">La Estadística se aprueba "fácilmente" si:</div> 
+- <div style="font-size: 35px">You can pass the course "not suffering too much" if:</div> 
 
- - <div style="font-size: 30px">A) se <span style="color:red">entra con  asiduidad a clase (teoría y prácticas)</span> y</div> 
- - <div style="font-size: 30px">B) se lleva la <span style="color:red">asignatura, más o menos, al día.</span></div> 
+ - <div style="font-size: 30px">A) <span style="color:red">you attend class regularly (theory and practice) and</span></div> 
+ - <div style="font-size: 30px">B) <span style="color:red">you are more or less up to date with the subject.</span></div> 
 
-- <div style="font-size: 35px">Utilizad el <span style="color:blue">correo corporativo</span>, esto es, <ins>@uco.es</ins> y consultad siempre <span style="color:blue">Moodle.</span></div>
+- <div style="font-size: 35px"><span style="color:blue">Use the corporate email</span>, that is, <ins>@uco.es</ins> and always  <span style="color:blue">check the Moodle out.</span></div>
 
-- <div style="font-size: 35px"><span style="color:red">Mi puerta está siempre abierta</span>, respondo a todxs lxs alumnxs que me escriben, atiendo a todxs lxs que pedís tutoría. Sentíos libres de acudir a mi (o a cualquiera de los profesores) si os surge cualquier problema.</div>
+- <div style="font-size: 35px"><span style="color:red">My office door is always open</span>, I answer to all students who write me, I attend to all of you who ask for tutoring. Feel free to knock my door (or any of the teachers) if you have any problem.</div>
 
-- <div style="font-size: 35px">Haced uso de todos los <span style="color:blue">recursos que se os ofrecen:</span> biblioteca, salas de estudio, aulas de ordenadores, horas de consulta, etc..., aprovechadlos porque os hará más productivos.</div>
+- <div style="font-size: 35px">Make use of all the <span style="color:blue">resources that are offered to you</span>: library, study rooms, computer rooms, consultation hours,..., even the cafeteria!!! Take advantage of them because it will make you more productive.</div>
 
-- <div style="font-size: 35px">Si no se tiene la <span style="color:blue">base matemática suficiente, decidlo, no pasa nada.</span></div>
+- <div style="font-size: 35px">If you don't have <span style="color:blue">enough maths or language background, say so, it's OK.</span></div>
 
 
 ---
 
-# Y SOBRE TODO...
+# AND ESPECIALLY...
 
-- <span style="font-size: 70px">Preguntad,</span><span style="font-size: 65px">preguntad,</span><span style="font-size: 60px">preguntad,</span><span style="font-size: 55px">preguntad,</span><br>
-<span style="font-size: 50px">preguntad,</span><span style="font-size: 45px">preguntad,</span><span style="font-size: 40px">preguntad,</span><span style="font-size: 35px">preguntad,</span><span style="font-size: 30px">preguntad,</span><span style="font-size: 25px">preguntad,</span><span style="font-size: 20px">preguntad,...</span>
+- <span style="font-size: 70px">Ask, </span><span style="font-size: 65px">ask, </span><span style="font-size: 60px">ask, </span><span style="font-size: 55px">ask, </span><span style="font-size: 50px">ask, </span><span style="font-size: 45px">ask, </span><span style="font-size: 40px">ask, </span><span style="font-size: 35px">ask, </span><span style="font-size: 30px">ask, </span><span style="font-size: 25px">ask, </span><span style="font-size: 20px">ask, </span><span style="font-size: 15px">ask, </span><span style="font-size: 10px">ask,...</span></br>
+<span style="font-size: 40px">Ask what you do not understand. </span>
 
 <div class="warning" style='background-color:#E9D8FD; color: #69337A; border-left: solid #805AD5 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:center'>
-<b>On the Importance Of Education</b></p>
+<b>"On the Importance Of Education"</b></p>
 <p style='margin-left:1em;'>
 <div style="font-size: 45px">
 
-<cite>"Pregunta lo que no sepas y serás tonto unos minutos, no lo preguntes y serás tonto toda la vida."
+<cite>"Ask what you don't know and you'll look dumb for a few minutes, don't ask and you'll be dumb all your life."
 
 </div>
 
-<p style='margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia'> <b>- Proverbio chino</b> <i></i>
+<p style='margin-bottom:1em; margin-right:1em; text-align:right; font-family:Georgia'> <b>- Chinese proverb</b> <i></i>
 </p></span>
 </div>
 
